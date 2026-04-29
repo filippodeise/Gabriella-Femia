@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Contatti — Gabriella Femia | La Formatrice Cinica</title>
-<meta name="description" content="Contatta Gabriella Femia. Email, social, modulo di contatto. Per informazioni sui percorsi, collaborazioni o richieste stampa." />
-<meta name="keywords" content="contatti gabriella femia, contatti la formatrice cinica, email coach, scrivi a gabriella" />
-<link rel="canonical" href="./contatti.html" />
+<title>Programmi — Coaching, Leadership al Femminile, Corso sul tempo | La Formatrice Cinica</title>
+<meta name="description" content="I percorsi di Gabriella Femia: coaching individuale 1:1, Leadership al Femminile, corso «Non ho tempo». Niente moduli registrati copia-incolla. Metodo, struttura, risultati." />
+<meta name="keywords" content="coaching individuale, leadership al femminile, corso gestione del tempo, percorsi crescita personale donne, anticoach, formatrice cinica, biancaneve si è svegliata, non ho tempo corso, coaching 1:1 donne" />
+<link rel="canonical" href="./programmi.html" />
 <link rel="icon" type="image/png" href="./assets/favicon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
 
 <header class="site-header">
   <div class="wrap nav">
-    <a href="./index.html" class="brand"><img src="./assets/logo-mark-square.png" alt="" style="width: 41.9922px; height: 41.9922px" /><span class="brand-text"><span class="b1">Gabriella Femia</span><span class="b2">La Formatrice Cinica</span></span></a>
+    <a href="./index.html" class="brand"><img src="./assets/logo-mark-square.png" alt="" /><span class="brand-text"><span class="b1">Gabriella Femia</span><span class="b2">La Formatrice Cinica</span></span></a>
     <nav class="nav-links">
       <a href="./index.html" data-page="index.html">Home</a>
       <a href="./chi-sono.html" data-page="chi-sono.html">Chi sono</a>
@@ -32,94 +32,225 @@
 <section class="page-hero">
   <img class="page-hero-mark" src="./assets/logo-gold-black-trim.png" alt="" />
   <div class="wrap fade-in">
-    <div class="eyebrow">— Contatti</div>
-    <h1 class="serif" style="margin-top:18px">Scrivi.<br/><span class="it">Senza preamboli.</span></h1>
-    <p class="lead">Per informazioni sui percorsi, collaborazioni, richieste stampa o speaking. Se invece vuoi prenotare la consulenza gratuita, c'è una <a href="./prenota.html" style="text-decoration: underline;">pagina dedicata</a>.</p>
+    <div class="eyebrow">— Programmi</div>
+    <h1 class="serif" style="margin-top:18px">Tre porte.<br/><span class="it">Stesso metodo.</span></h1>
+    <p class="lead">Coaching costruito su di te, percorsi di gruppo per chi vuole guidare invece di gestire, e il corso online che ti riprende il tempo. Si entra solo dopo una consulenza — non lavoro con tutte.</p>
   </div>
 </section>
 
-<section class="section">
+<!-- index strip -->
+<section class="section--tight" style="border-bottom: 1px solid var(--line-soft);">
+  <div class="wrap" style="display: flex; gap: 32px; flex-wrap: wrap; padding: 28px 0; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase;">
+    <a href="#coaching" style="color: var(--ink);">/ 01 Coaching individuale</a>
+    <a href="#leadership" style="color: var(--ink);">/ 02 Leadership al femminile</a>
+    <a href="#tempo" style="color: var(--ink);">/ 03 Non ho tempo</a>
+  </div>
+</section>
+
+<!-- 01 COACHING -->
+<section class="section" id="coaching">
   <div class="wrap fade-in">
+    <div class="row row--2" style="margin-bottom: 56px; align-items: end;">
+      <div>
+        <div class="eyebrow">/ 01 — One to one</div>
+        <h2 class="serif" style="margin-top: 18px;">Coaching<br/>individuale.</h2>
+      </div>
+      <p class="lead">Non è motivazione. È un cambio di struttura. Se cerchi qualcuno che ti dica che andrà tutto bene, non sono la persona giusta.</p>
+    </div>
+
     <div class="row row--7-5" style="gap: 80px;">
       <div>
-        <div class="eyebrow">— Modulo di contatto</div>
-        <h2 class="serif" style="margin: 14px 0 32px;">Dimmi chi sei<br/>e cosa cerchi.</h2>
-        <form class="form" onsubmit="event.preventDefault(); document.getElementById('thanks').style.display='block'; this.style.display='none';">
-          <div class="row-2">
-            <div class="field"><label for="nome">Nome e cognome</label><input id="nome" name="nome" type="text" required /></div>
-            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
-          </div>
-          <div class="row-2">
-            <div class="field"><label for="tel">Telefono (opzionale)</label><input id="tel" name="tel" type="tel" /></div>
-            <div class="field">
-              <label for="motivo">Motivo del contatto</label>
-              <select id="motivo" name="motivo" required>
-                <option value="">Seleziona...</option>
-                <option>Informazioni sui percorsi</option>
-                <option>Coaching individuale</option>
-                <option>Leadership al femminile</option>
-                <option>Corso «Non ho tempo»</option>
-                <option>Biancaneve si è svegliata</option>
-                <option>Collaborazione / speaking</option>
-                <option>Stampa</option>
-                <option>Altro</option>
-              </select>
-            </div>
-          </div>
-          <div class="field"><label for="msg">Messaggio</label><textarea id="msg" name="msg" required placeholder="Raccontami cosa ti porta qui."></textarea></div>
-          <div class="field field--inline">
-            <input id="priv" type="checkbox" required />
-            <label for="priv">Ho letto e accettato la <a href="./privacy.html" style="text-decoration: underline;">privacy policy</a> e autorizzo il trattamento dei dati ai sensi del GDPR.</label>
-          </div>
-          <button type="submit" class="btn" style="justify-self: start;">Invia messaggio <span class="arrow">→</span></button>
-        </form>
-        <div id="thanks" style="display:none; padding: 32px; background: var(--bone); margin-top: 24px;">
-          <h3 class="serif">Grazie. Ricevuto.</h3>
-          <p>Ti rispondo nel giro di 1-2 giorni lavorativi. Se è urgente, scrivimi anche su Instagram.</p>
-        </div>
+        <h3 class="serif" style="margin-bottom: 16px;">Cosa facciamo davvero</h3>
+        <p>Non lavoro sulla superficie. Non ti do motivazione. Non ti do frasi positive. Non ti do un metodo standard. Lavoro su ciò che ti guida davvero:</p>
+        <ul class="bullets">
+          <li>Schemi mentali</li>
+          <li>Automatismi</li>
+          <li>Autoinganni sofisticati</li>
+          <li>Decisioni inconsapevoli</li>
+        </ul>
+        <p>Unendo neuroscienze, biohacking, comunicazione strategica e oltre 30 anni di esperienza reale sulle persone. La verità è semplice: <em class="italic">se non cambi struttura, non cambia niente.</em></p>
+
+        <h3 class="serif" style="margin: 48px 0 16px;">Niente percorsi copia-incolla</h3>
+        <p>Non troverai moduli registrati, programmi standardizzati, percorsi uguali per tutti. Tu non sei un numero. Ogni percorso viene costruito su chi sei oggi, cosa ti sta bloccando davvero, e dove vuoi arrivare — non quello che «dovresti» volere.</p>
+
+        <h3 class="serif" style="margin: 48px 0 16px;">Come si inizia</h3>
+        <p>Si parte da una consulenza gratuita. Ma mettiamolo in chiaro: non è una chiacchierata, non è un regalo. Prima ancora di sentirci, riceverai un questionario mirato. Quando arriviamo alla call, io non parto da zero. So già chi ho davanti, e dove intervenire.</p>
       </div>
 
-      <aside>
-        <div class="eyebrow">— Diretto</div>
-        <h3 class="serif" style="margin: 14px 0 28px;">Canali brevi.</h3>
-
-        <div style="display: grid; gap: 24px;">
-          <a href="mailto:info@laformatricecinica.it" style="display:block; padding: 24px; border: 1px solid var(--line-soft); transition: all 0.25s;" onmouseover="this.style.background='var(--ink)'; this.style.color='var(--paper)'" onmouseout="this.style.background=''; this.style.color=''">
-            <div class="eyebrow" style="color: inherit; opacity: 0.6;">Email</div>
-            <div style="font-family: var(--serif); font-size: 22px; margin-top: 8px;">info@laformatricecinica.it</div>
-          </a>
-
-          <a href="https://www.instagram.com/la_formatrice_cinica/" target="_blank" rel="noopener" style="display:block; padding: 24px; border: 1px solid var(--line-soft); transition: all 0.25s;" onmouseover="this.style.background='var(--ink)'; this.style.color='var(--paper)'" onmouseout="this.style.background=''; this.style.color=''">
-            <div class="eyebrow" style="color: inherit; opacity: 0.6;">Instagram</div>
-            <div style="font-family: var(--serif); font-size: 22px; margin-top: 8px;">@la_formatrice_cinica</div>
-          </a>
-
-          <div style="padding: 24px; background: var(--bone);">
-            <div class="eyebrow">Tempi di risposta</div>
-            <p style="margin: 12px 0 0; font-size: 14px;">Rispondo personalmente alle email nel giro di 1-2 giorni lavorativi. Per le consulenze, l'inserimento in agenda dipende dalle tue disponibilità e dalle mie.</p>
-          </div>
+      <aside style="background: var(--bone); padding: 40px 36px; align-self: start; position: sticky; top: 100px;">
+        <div class="eyebrow">— Dettagli</div>
+        <div style="display: grid; gap: 20px; margin: 24px 0 32px;">
+          <div style="display:flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--line-soft);"><span style="color: var(--muted); font-size: 13px;">Formato</span><strong style="font-family: var(--serif); font-size: 18px;">1:1, online o in presenza</strong></div>
+          <div style="display:flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--line-soft);"><span style="color: var(--muted); font-size: 13px;">Durata minima</span><strong style="font-family: var(--serif); font-size: 18px;">90 giorni</strong></div>
+          <div style="display:flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--line-soft);"><span style="color: var(--muted); font-size: 13px;">Investimento</span><strong style="font-family: var(--serif); font-size: 18px;">€300 / mese</strong></div>
+          <div style="display:flex; justify-content: space-between;"><span style="color: var(--muted); font-size: 13px;">Accesso</span><strong style="font-family: var(--serif); font-size: 18px;">Solo dopo call</strong></div>
         </div>
+        <a href="./prenota.html" class="btn" style="width: 100%; justify-content: center;">Richiedi la consulenza <span class="arrow">→</span></a>
+        <p style="font-size: 13px; color: var(--muted); margin: 18px 0 0;">Non lavoro con tutte. Solo dopo la call decidiamo insieme se ha senso iniziare.</p>
       </aside>
     </div>
   </div>
 </section>
 
+<!-- 02 LEADERSHIP -->
+<section class="section section--ink" id="leadership">
+  <div class="wrap fade-in">
+    <div class="row row--2" style="margin-bottom: 56px; align-items: end;">
+      <div>
+        <div class="eyebrow">/ 02 — Percorso donne</div>
+        <h2 class="serif" style="margin-top: 18px;">Leadership<br/>al femminile.</h2>
+      </div>
+      <p class="lead">Non sei «troppo». Sei solo una donna che non ha ancora imparato a guidare quello che è.</p>
+    </div>
+
+    <div class="row row--2" style="gap: 80px;">
+      <div>
+        <h3 class="serif" style="margin-bottom: 16px;">La verità che non ti piace</h3>
+        <p>Sei quella che tiene tutto insieme, capisce tutti, regge anche quando non dovrebbe. Arrivi a sera svuotata e ogni tanto ti scappa quella frase: «Non mi riconosco più».</p>
+        <p>Non sei fragile. Non sei sbagliata. <em class="italic">Sei mal gestita.</em> Tutte le tue qualità migliori — sensibilità, empatia, intuito, bisogno di dare — le stai usando contro di te. Ti hanno insegnato a essere disponibile, comprensiva, forte per tutti, adattabile. Ma non a essere chiara, decisa, centrata, leader.</p>
+
+        <h3 class="serif" style="margin: 40px 0 16px;">Cosa succede qui dentro</h3>
+        <p>Impari a:</p>
+        <ul class="bullets">
+          <li>Smettere di farti mille film e iniziare a vedere la realtà</li>
+          <li>Dire NO senza sentirti una stronza</li>
+          <li>Smettere di salvare tutti</li>
+          <li>Comunicare senza girarci intorno</li>
+          <li>Gestire le emozioni senza affogarci dentro</li>
+        </ul>
+        <p style="margin-top: 24px;"><em class="italic">In pratica: smetti di reagire e inizi a decidere.</em></p>
+      </div>
+      <div>
+        <h3 class="serif" style="margin-bottom: 16px;">Il cambio vero</h3>
+        <p>Non diventi una donna diversa. Diventi una donna che:</p>
+        <ul class="bullets">
+          <li>Non si perde più negli altri</li>
+          <li>Non ha bisogno di approvazione continua</li>
+          <li>Sa quando dare… e quando fermarsi</li>
+          <li>Si fa rispettare senza spiegarsi troppo</li>
+          <li>Guida, invece di adattarsi</li>
+        </ul>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.14);">
+          <div>
+            <div class="eyebrow" style="color: var(--accent);">→ Per te se</div>
+            <ul class="bullets" style="margin-top: 18px;">
+              <li>Sei stanca di ripetere sempre gli stessi schemi</li>
+              <li>Vuoi smettere di sopravvivere e iniziare a guidare</li>
+              <li>Sei pronta a guardarti davvero</li>
+            </ul>
+          </div>
+          <div>
+            <div class="eyebrow" style="color: rgba(255,255,255,0.5);">✕ Lascia stare se</div>
+            <ul class="bullets crosslist" style="margin-top: 18px;">
+              <li>Vuoi solo sentirti rassicurata</li>
+              <li>Continui a dire «sono fatta così»</li>
+              <li>Eviti di metterti in discussione</li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="./prenota.html" class="btn btn--light" style="margin-top: 40px;">Iscriviti al percorso <span class="arrow">→</span></a>
+      </div>
+    </div>
+
+    <div style="margin-top: 80px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.14); text-align: center;">
+      <p class="serif" style="font-size: clamp(24px, 3vw, 36px); font-style: italic; line-height: 1.3; max-width: 30ch; margin: 0 auto;">«Il problema non è che non sei una leader. È che nessuno ti ha mai insegnato a esserlo senza perdere te stessa.»</p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 NON HO TEMPO -->
+<section class="section" id="tempo">
+  <div class="wrap fade-in">
+    <div class="row row--2" style="margin-bottom: 56px; align-items: end;">
+      <div>
+        <div class="eyebrow">/ 03 — Corso online</div>
+        <h2 class="serif" style="margin-top: 18px;">Non ho tempo.<br/><span style="font-style: italic; color: var(--muted);">Il metodo per smettere di dirlo.</span></h2>
+      </div>
+      <p class="lead">Quante volte lo hai detto? «Non ho tempo.» Per fare quello che vuoi. Per occuparti di te. Per portare avanti davvero i tuoi obiettivi. E ogni volta sembra vero. Ma la verità è un'altra.</p>
+    </div>
+
+    <div class="row row--7-5" style="gap: 80px;">
+      <div>
+        <h3 class="serif" style="margin-bottom: 16px;">Il problema non sei tu</h3>
+        <p>È il modo in cui funziona il tuo cervello. Senza una struttura chiara, sceglie sempre ciò che è più facile, più immediato, ciò che evita fatica. Non perché sei pigra: <em class="italic">perché è programmato così.</em></p>
+        <p>Ecco perché organizzarti meglio non basta. Se continui a fare le stesse cose, continuerai a sentirti sempre senza tempo. Non ti serve più impegno. <em class="italic">Ti serve un metodo.</em></p>
+
+        <h3 class="serif" style="margin: 40px 0 16px;">Cosa imparerai</h3>
+        <ul class="bullets">
+          <li>Capire dove stai perdendo tempo senza accorgertene</li>
+          <li>Distinguere ciò che è davvero importante da ciò che ti distrae</li>
+          <li>Eliminare il superfluo senza sensi di colpa</li>
+          <li>Organizzare le tue giornate con chiarezza</li>
+          <li>Pianificare settimana e mese in modo sostenibile</li>
+          <li>Trasformare le intenzioni in azioni reali</li>
+        </ul>
+
+        <h3 class="serif" style="margin: 40px 0 16px;">Perché è diverso</h3>
+        <p>Questo non è un corso sulla produttività. È un reset. Parti da quello che stai facendo oggi, capisci cosa funziona e cosa no, e costruisci un sistema che ti dà più spazio, meno confusione, più risultati. Non avrai più ore. Ma avrai qualcosa di molto più importante: <em class="italic">tornerai a scegliere come usare il tuo tempo.</em></p>
+      </div>
+
+      <aside style="background: var(--ink); color: var(--paper); padding: 40px 36px; align-self: start; position: sticky; top: 100px;">
+        <div class="eyebrow" style="color: rgba(255,255,255,0.55);">— Il corso</div>
+        <h3 class="serif" style="margin: 14px 0 24px;">Non ho tempo</h3>
+        <div style="display: grid; gap: 20px; margin: 24px 0 32px;">
+          <div style="display:flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,0.14);"><span style="color: rgba(255,255,255,0.55); font-size: 13px;">Formato</span><strong style="font-family: var(--serif); font-size: 18px;">Online · on demand</strong></div>
+          <div style="display:flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,0.14);"><span style="color: rgba(255,255,255,0.55); font-size: 13px;">Accesso</span><strong style="font-family: var(--serif); font-size: 18px;">Illimitato</strong></div>
+          <div style="display:flex; justify-content: space-between;"><span style="color: rgba(255,255,255,0.55); font-size: 13px;">Per chi è</span><strong style="font-family: var(--serif); font-size: 18px;">Chi vuole un metodo</strong></div>
+        </div>
+        <a href="./contatti.html" class="btn btn--light" style="width: 100%; justify-content: center;">Accedi al corso <span class="arrow">→</span></a>
+        <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin: 18px 0 0;">«Il tempo non si gestisce. Si decide.»</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- BIANCANEVE -->
+<section class="section section--bone">
+  <div class="wrap fade-in">
+    <div class="row row--7-5" style="gap: 64px; align-items: center;">
+      <div>
+        <div class="eyebrow">— Esperienza in presenza</div>
+        <h2 class="serif" style="margin: 14px 0 24px; max-width: 18ch;">Biancaneve si è svegliata.<br/><span style="font-style: italic; color: var(--muted);">E non ti dirà che ce la fai.</span></h2>
+        <p class="lead" style="max-width: 60ch; margin: 0 0 24px;">Due giorni, hotel, cena di gala con abito da sera, segnaposto col tuo nome. Non è un corso: è un'esperienza pedagogica precisa che ti tira fuori dai ruoli quotidiani. Chi lo vive non lo dimentica.</p>
+        <p class="lead" style="max-width: 60ch; margin: 0 0 32px; color: var(--muted); font-size: 17px;">«Le 3 domande chiave: chi ero? Chi sono? Chi scelgo di diventare?» — Le domande con cui si apre il primo giorno.</p>
+        <a href="./contatti.html" class="btn">Scopri le prossime date <span class="arrow">→</span></a>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <div style="aspect-ratio: 3/4; overflow: hidden; background: var(--ink);">
+          <img src="./assets/gabriella-teach-1.jpg" alt="Gabriella Femia in aula durante Biancaneve si è svegliata" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+        <div style="aspect-ratio: 3/4; overflow: hidden; background: var(--ink); margin-top: 32px;">
+          <img src="./assets/gabriella-teach-2.jpg" alt="Gabriella Femia, ritratto con mela rossa — riferimento Biancaneve" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+        <div style="grid-column: 1 / -1; aspect-ratio: 16/10; overflow: hidden; background: var(--ink);">
+          <img src="./assets/group-photo.jpg" alt="Foto di gruppo dell'edizione Biancaneve si è svegliata" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section section--ink">
-  <div class="wrap fade-in" style="text-align: center;">
-    <p class="serif" style="font-size: clamp(28px, 4vw, 48px); font-style: italic; line-height: 1.2; max-width: 24ch; margin: 0 auto 32px;">«Quando arriviamo alla call,<br/>io non parto da zero.»</p>
-    <a href="./prenota.html" class="btn btn--light">Prenota la consulenza gratuita <span class="arrow">→</span></a>
+  <div class="wrap fade-in" style="display:grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center;">
+    <div>
+      <h2 class="serif" style="max-width: 18ch;">Non sai quale<br/>percorso fa per te?</h2>
+      <p class="lead" style="margin-top: 20px;">La consulenza gratuita serve esattamente a questo. In quaranta minuti capiamo dove sei, dove vuoi andare, e se possiamo lavorare insieme.</p>
+    </div>
+    <a href="./prenota.html" class="btn btn--light">Prenota ora <span class="arrow">→</span></a>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <div class="foot-mark"><img src="./assets/logo-mark-square.png" alt="" style="width: 55.9896px; height: 41.9922px; padding: 0px" /><div><div class="b1">Gabriella Femia</div><div class="b2">La Formatrice Cinica</div></div></div>
+      <div class="foot-mark"><img src="./assets/logo-mark-square.png" alt="" /><div><div class="b1">Gabriella Femia</div><div class="b2">La Formatrice Cinica</div></div></div>
       <p style="margin-top:24px; max-width: 38ch; color: rgba(255,255,255,0.7); font-size: 14px;">Formatrice, coach, mentor. 30 anni di esperienza in formazione manageriale, neuroscienze applicate, leadership e comunicazione strategica.</p>
     </div>
     <div><div class="foot-h">Naviga</div><ul><li><a href="./index.html">Home</a></li><li><a href="./chi-sono.html">Chi sono</a></li><li><a href="./programmi.html">Programmi</a></li><li><a href="./contatti.html">Contatti</a></li></ul></div>
     <div><div class="foot-h">Inizia</div><ul><li><a href="./prenota.html">Consulenza gratuita</a></li><li><a href="./programmi.html#coaching">Coaching 1:1</a></li><li><a href="./programmi.html#leadership">Leadership al femminile</a></li><li><a href="./programmi.html#tempo">Corso «Non ho tempo»</a></li></ul></div>
-    <div><div class="foot-h">Contatti</div><ul><li><a href="mailto:info@laformatricecinica.it">info@laformatricecinica.it</a></li><li><a href="https://www.instagram.com/la_formatrice_cinica/" target="_blank" rel="noopener">@la_formatrice_cinica</a></li></ul></div>
+    <div><div class="foot-h">Contatti</div><ul><li><a href="mailto:info@laformatricecinica.it">info@laformatricecinica.it</a></li><li><a href="https://www.instagram.com/la_formatrice_cinica/" target="_blank" rel="noopener">@la_formatrice_cinica</a></li><li><a href="./contatti.html">Tutti i contatti</a></li></ul></div>
   </div>
   <div class="wrap foot-bottom">
     <div>© 2026 Gabriella Femia · La Formatrice Cinica · P.IVA 00000000000</div>
