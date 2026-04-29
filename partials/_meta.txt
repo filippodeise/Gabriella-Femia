@@ -1,0 +1,3 @@
+Reusable meta tags + header + footer + cookie banner.
+Copy/paste into each page (don't link — for static deploy on GitHub Pages).
+See README.md for usage.
